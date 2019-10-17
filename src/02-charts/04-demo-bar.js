@@ -19,7 +19,6 @@ class Chart extends LitElement {
         id="chart" 
         bottom-axis
         left-axis
-        bottom-scale-type="band"
         left-ticks="5"
         .leftTickFormat="${this.format}"
         .bottomPadding="${this.padding}"

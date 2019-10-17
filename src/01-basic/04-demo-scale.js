@@ -52,7 +52,7 @@ class DemoScale extends LitElement {
     return html `
     <p>Example of setting domain and scales: <code>scaled value = scale(value)</code></p>
        <div>
-          <d3-scale type="linear" .domain="${this.domain}" .clamp="${this.clamp}" .range="${this.range}" @d3-scale-changed="${(e) => {console.info('scale changed');this.scaledValue = e.detail.value && e.detail.value(this.value)}}"  ></d3-scale>
+          <d3-scale type="linear" .domain="${this.domain}" .clamp="${this.clamp}" .range="${this.range}" @scale-changed="${(e) => {console.info('scale changed');this.scaledValue = e.detail.value && e.detail.value(this.value)}}"  ></d3-scale>
           <div>domain: ${JSON.stringify(this.domain)} | range: ${JSON.stringify(this.range)}</div>
           <div>value: ${this.value} | scaled value: ${this.scaledValue}</div>
           <p>
