@@ -42,7 +42,7 @@
   "dependencies": {
     "@morbidick/lit-element-notify": "*",
     "@polymer/paper-card": "^3.0.1",
-    "@preignition/multi-chart": "file:../multi-chart",
+    "@preignition/multi-chart": "^4",
     "@vaadin/router": "^1.2.0",
     "@vaadin/vaadin-tabs": "^2.1.2",
     "@webcomponents/webcomponentsjs": "^2.2.7",
