@@ -10,6 +10,8 @@ dependencies:
   d3-random: 2.0.0
   d3-scale: 3.1.0
   d3-scale-chromatic: 1.5.0
+  d3-time: 1.1.0
+  d3-time-format: 2.2.0
   lit-element: 2.2.1
   lit-html: 1.1.2
   pwa-helpers: 0.9.1
@@ -1345,6 +1347,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-6k0a2rZryzGm5Ihx+aFMuO1GgelgIz+7HhB4PH4OEndD5q2zGn1mDfRdNrulspOfR6JXkb2sThhDK41CSK85QA==
+  /d3-time-format/2.2.0:
+    dependencies:
+      d3-time: 1.1.0
+    dev: false
+    resolution:
+      integrity: sha512-r71yLrAzBE2ZUDs0rzgfRYexJRKXvZXEGjfRZ64yzAjCgL5t24uwzz+ZyZgLHePgZVsf3j6eqvdNM2UUKDbwLQ==
   /d3-time/1.1.0:
     dev: false
     resolution:
@@ -2729,6 +2737,8 @@ specifiers:
   d3-random: '*'
   d3-scale: '*'
   d3-scale-chromatic: '*'
+  d3-time: '*'
+  d3-time-format: '*'
   es-dev-server: ^1.18.3
   lit-element: ^2.1.0
   lit-html: '1'

@@ -8,11 +8,16 @@
   "authors": [
     "christophe.geiser <christophe.geiser@preignition.org>"
   ],
-  "files": [
-    "src",
-    "index.html",
-    "web_modules",
-    "index.js"
+  "keywords": [
+    "web-component",
+    "web-components",
+    "d3.js",
+    "charts",
+    "demo",
+    "lit-element",
+    "pikaweb",
+    "analytics",
+    "dataviz"
   ],
   "repository": "https://github.com/preignition/multi-chart-demo",
   "homepage": "https://github.com/preignition/multi-chart-demo",
@@ -31,8 +36,10 @@
       "@webcomponents/webcomponentsjs",
       "d3-array",
       "d3-format",
+      "d3-time-format",
       "d3-random",
       "d3-scale",
+      "d3-time",
       "d3-scale-chromatic",
       "lit-element",
       "lit-html",
@@ -48,8 +55,10 @@
     "@webcomponents/webcomponentsjs": "^2.2.7",
     "d3-array": "*",
     "d3-format": "*",
+    "d3-time-format": "*",
     "d3-random": "*",
     "d3-scale": "*",
+    "d3-time": "*",
     "d3-scale-chromatic": "*",
     "lit-element": "^2.1.0",
     "lit-html": "1",

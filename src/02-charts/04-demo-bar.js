@@ -7,7 +7,7 @@ class Chart extends LitElement {
 
   render() {
     return html `
-    <p>Example of a line chart (inspired from <a href="https://bl.ocks.org/mbostock/3887051">https://bl.ocks.org/mbostock/3887051</a>)</p>
+    <p>Example of a bar chart (inspired from <a href="https://bl.ocks.org/mbostock/3887051">https://bl.ocks.org/mbostock/3887051</a>)</p>
     <div>
       <button @click="${ e => this.stacked = !this.stacked}">toggle stack</button>
     </div>

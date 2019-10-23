@@ -1,7 +1,7 @@
 import { LitElement, html, css } from '/web_modules/lit-element.js';
 import './src/01-basic/basic-demos.js';
 import './src/02-charts/charts-demos.js';
-// import './03-advanced/advanced-demos.js';
+import './src/03-advanced/advanced-demos.js';
 
 import '/web_modules/@preignition/multi-chart.js';
 // import '@preignition/multi-chart';
